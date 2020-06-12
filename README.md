@@ -7,3 +7,5 @@ Scrape tenders
 Scrape tender awards
 
   pipenv run scrapy crawl advertised-tenders -t csv -o advertised-2019-09-24-1445.csv
+
+Adding new scrapers soon
