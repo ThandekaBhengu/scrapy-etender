@@ -1,11 +1,13 @@
 # scrapy-etender
 
-Scrape tenders
-
+Scrape advertised tenders
   pipenv run scrapy crawl tenders -t csv -o tenders.csv
 
 Scrape tender awards
-
-  pipenv run scrapy crawl advertised-tenders -t csv -o advertised-2019-09-24-1445.csv
-
-Adding new scrapers soon
+  pipenv run scrapy crawl awards -t csv -o tender_awards.csv
+  
+Scrape cancelled tenders
+  scrapy crawl cancelled -o cancelled_tenders.csv
+  
+Scrape closed tenders
+  scrapy crawl closed -o closed_tenders.csv
